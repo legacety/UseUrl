@@ -1,3 +1,10 @@
+связано с диалогом спавна / кастом название - 
+https://www.blast.hk/threads/250600/
+https://www.blast.hk/threads/233770/#post-1597348
+https://www.blast.hk/threads/233770/#post-1597348
+https://www.blast.hk/threads/233770/
+
+
 в цикле диалог -   https://www.blast.hk/threads/248123/#post-1658828
 
 таблица координат - https://www.blast.hk/threads/142970/
