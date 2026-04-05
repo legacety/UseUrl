@@ -39,3 +39,5 @@ screenshot - https://www.blast.hk/threads/13380/page-47
 keymap - https://www.blast.hk/threads/249497/
 
 kladtools - https://www.blast.hk/threads/117260/
+
+узнать координаты - https://www.blast.hk/threads/246335/
