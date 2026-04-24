@@ -13,19 +13,19 @@ Office = main_ini.settings.active
 function main()
     if not isSampLoaded() or not isSampfuncsLoaded() then return end
     while not isSampAvailable() do wait(100) end
-    sampAddChatMessage("{00FFFF}[AutoDoc] {FFFFFF}Скрипт успешно {33FF33}загружен{FFFFFF}. Автор: {00FFFF}legacy.", -1)
+    sampAddChatMessage("{00FFFF}[AutoDoc] {FFFFFF}Г‘ГЄГ°ГЁГЇГІ ГіГ±ГЇГҐГёГ­Г® {33FF33}Г§Г ГЈГ°ГіГ¦ГҐГ­{FFFFFF}. ГЂГўГІГ®Г°: {00FFFF}legacy.", -1)
     sampRegisterChatCommand("act", function()
         Office = not Office
         main_ini.settings.active = Office
         inicfg.save(main_ini, direct)
-        sampAddChatMessage("{00FFFF}[AutoDoc] {FFFFFF}Автозаполнение документов: " .. (Office and "{33FF33}Активирован" or "{FF4C4C}Деактивирован"), -1)
+        sampAddChatMessage("{00FFFF}[AutoDoc] {FFFFFF}ГЂГўГІГ®Г§Г ГЇГ®Г«Г­ГҐГ­ГЁГҐ Г¤Г®ГЄГіГ¬ГҐГ­ГІГ®Гў: " .. (Office and "{33FF33}ГЂГЄГІГЁГўГЁГ°Г®ГўГ Г­" or "{FF4C4C}Г„ГҐГ ГЄГІГЁГўГЁГ°Г®ГўГ Г­"), -1)
     end)
     wait(-1)
 end
 
 function sampev.onShowDialog(id, style, title, button1, button2, text)
-    if Office[0] then
-        if title:find('{BFBBBA}Заполнение документа') then
+    if Office then
+        if title:find('{BFBBBA}Г‡Г ГЇГ®Г«Г­ГҐГ­ГЁГҐ Г¤Г®ГЄГіГ¬ГҐГ­ГІГ ') then
             sampSendDialogResponse(id, 1, nil, text:match('{ffff00}(.+)'))
             return false
         end
