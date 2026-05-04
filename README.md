@@ -41,3 +41,9 @@ keymap - https://www.blast.hk/threads/249497/
 kladtools - https://www.blast.hk/threads/117260/
 
 узнать координаты - https://www.blast.hk/threads/246335/
+
+узнать ид предмета - https://www.blast.hk/threads/253051/
+
+вс инфа - https://www.blast.hk/threads/153353/
+
+old damaginfo - https://www.blast.hk/threads/254017/
