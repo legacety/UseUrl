@@ -1,0 +1,4 @@
+local function getItemName(cleanText)
+    local name = cleanText:match("Предмет:%s*([^\r\n]+)") or cleanText:match("([^\r\n]+)")
+    return name and (name:match("^[^:]+:%s*(.+)$") or name):gsub("%s*%(Улучшение%)", ""):match("^%s*(.-)%s*$") or "Неизвестный предмет"
+end
