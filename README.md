@@ -51,3 +51,5 @@ old damaginfo - https://www.blast.hk/threads/254017/
 synckey - https://www.blast.hk/threads/249497/
 
 syncKey - https://www.blast.hk/threads/37944/#post-370771
+
+Snipet Moonloader - https://www.blast.hk/threads/173087/
