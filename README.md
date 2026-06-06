@@ -47,3 +47,7 @@ kladtools - https://www.blast.hk/threads/117260/
 вс инфа - https://www.blast.hk/threads/153353/
 
 old damaginfo - https://www.blast.hk/threads/254017/
+
+synckey - https://www.blast.hk/threads/249497/
+
+syncKey - https://www.blast.hk/threads/37944/#post-370771
